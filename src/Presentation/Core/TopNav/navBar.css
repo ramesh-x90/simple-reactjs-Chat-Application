@@ -1,0 +1,13 @@
+.navbar-nav a {
+  text-align: center;
+  margin: 2px 10px;
+  background: transparent;
+  border-radius: 10px;
+  transition: background 1s ease-out;
+}
+
+.navbar-nav a:hover {
+  /* text-align: center; */
+  background-color: rgb(6, 93, 255);
+  color: white;
+}
