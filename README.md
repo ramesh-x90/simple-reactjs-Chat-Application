@@ -1,7 +1,7 @@
 # trying react and web sockets
 
 
-##react template
+## react template
 
 ```sh
 npx create-react-app my-app --template cra-template-pwa-typescript
