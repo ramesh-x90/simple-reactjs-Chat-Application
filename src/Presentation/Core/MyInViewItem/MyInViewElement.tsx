@@ -31,7 +31,7 @@ class MyInViewElement extends React.Component<
     hideUp: "hideUp",
   };
 
-  constructor(props) {
+  constructor(props: MyInViewElementProps) {
     super(props);
     this.state = { classes: this.observerclasses.hideDown };
   }

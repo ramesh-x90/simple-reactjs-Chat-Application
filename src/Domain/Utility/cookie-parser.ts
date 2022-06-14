@@ -9,8 +9,8 @@ export function getCookies<T>(): T | undefined {
 
   list.forEach((value) => {
     let kv = value.split("=");
-
-    obj[kv[0].trim()] = kv[1].trim();
+    let key = kv[0].trim();
+    obj[key] = kv[1].trim();
   });
 
   return obj;

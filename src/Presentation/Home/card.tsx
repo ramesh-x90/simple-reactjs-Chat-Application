@@ -16,7 +16,7 @@ interface MyCardState {
 class MyCard extends React.Component<MyCardProps, MyCardState> {
   state: MyCardState = { styles: { transform: "rotateY(0deg)" } };
   inView = false;
-  intervalId: number = -1;
+  intervalId: any;
 
   ref = React.createRef<MyInViewElement>();
 
